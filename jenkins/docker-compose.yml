@@ -15,8 +15,8 @@ services:
       JAVA_OPTS: "-Xmx2048m"
       JENKINS_MASTER: "http://master:8080"
       JENKINS_NAME: "worker"
-      JENKINS_USER: "BenJule"
-      JENKINS_PASS: "Colgate64"
+      JENKINS_USER: "jenkins"
+      JENKINS_PASS: "jenkins"
       JENKINS_RETRY: "10"
     volumes:
     - jenkins-worker:/var/jenkins_home/worker
